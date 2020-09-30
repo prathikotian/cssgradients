@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+section {
+    max-width: 100vw;
+    height: 97vh;
+    background: repeating-linear-gradient(
+        190deg,
+        rgba(217, 82, 132, 0.5) 40px,
+        rgba(4, 75, 217, 0.5) 80px,
+        rgba(255, 255, 0, 0.5) 120px,
+        rgba(242, 126, 99, 0.5) 160px,
+        rgba(4, 118, 217, 0.5) 200px,
+        rgba(75, 0, 130, 0.5) 240px,
+        rgba(238, 130, 238, 0.5) 280px,
+        rgba(156, 74, 255, 0.5) 300px
+      ),
+      repeating-linear-gradient(
+        -190deg,
+        rgba(73, 35, 120, 0.5) 30px,
+        rgba(255, 153, 0, 0.5) 60px,
+        rgba(255, 255, 0, 0.5) 90px,
+        rgba(35, 217, 183, 0.5) 120px,
+        rgba(215, 242, 5, 0.5) 150px,
+        rgba(75, 0, 130, 0.5) 180px,
+        rgba(238, 130, 238, 0.5) 210px,
+        rgba(215, 242, 5, 0.5) 230px
+      ),
+      repeating-linear-gradient(
+        -190deg,
+        rgba(255, 50, 120, 0.5) 30px,
+        rgba(82, 7, 242, 0.5) 60px,
+        rgba(242, 141, 119, 0.5) 90px,
+        rgba(242, 195, 53, 0.5) 120px,
+        rgba(0, 0, 255, 0.5) 150px,
+        rgba(242, 154, 46, 0.5) 180px,
+        rgba(238, 130, 238, 0.5) 210px,
+        rgba(255, 0, 0, 0.5) 230px
+      ),
+      repeating-linear-gradient(
+        45deg,
+        #f3d2b3 50px,
+        #f2b8a2 100px,
+        #f38c8d 150px,
+        #548ea6 200px,
+        #2c5f72 250px,
+        #d61e4f 300px,
+        #b8b3ff 350px,
+        #bba2e8 370px
+      );
+  }
+  
